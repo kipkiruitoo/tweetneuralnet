@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./training_data.js"></script>
+    <script src="./brain.js"></script>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+
+
+
+<body>
+
+    <div class="container">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+        <form id="form" method="POST" action="/">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Paste a Tweet here to Classify</label>
+                <input type="text" class="form-control" name="tweet" id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Know if a tweet is from Donald Trum or Kim
+                    Kardashian</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <hr>
+        <div class="well">
+            <p>The tweet is from :</p>
+            <h1 id="resu">...</h1>
+        </div>
+    </div>
+
+
+
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
